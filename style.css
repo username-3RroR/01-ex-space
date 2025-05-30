@@ -1,7 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0px;
   font-family: "Anta";
   color: #f0f0f0;
+}
+
+a {
+  text-decoration: none;
 }
 
 nav {
@@ -80,7 +88,7 @@ button {
   width: fit-content;
 }
 
-button:hover {
+.button-more:hover {
   background-color: #39e15a;
   border-color: #39e15a;
   color: #001100;
@@ -97,4 +105,17 @@ h3 {
 
 h1 {
   font-size: 2rem;
+}
+
+.to-top-button {
+  background-color: #f0f0f0;
+  border: none;
+  position: fixed;
+  margin: 0px;
+  bottom: 40px;
+  right: 80px;
+}
+
+.button-top {
+  color: #001100;
 }
