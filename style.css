@@ -10,6 +10,11 @@ nav {
   gap: 40px;
 }
 
+.nav-link:hover {
+  text-decoration: underline;
+  color: #39e15a;
+}
+
 header {
   display: flex;
   flex-flow: row wrap;
@@ -75,10 +80,21 @@ button {
   width: fit-content;
 }
 
+button:hover {
+  background-color: #39e15a;
+  border-color: #39e15a;
+  color: #001100;
+}
+
 h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 h3 {
   font-size: 1rem;
+  color: #39e15a;
+}
+
+h1 {
+  font-size: 2rem;
 }
