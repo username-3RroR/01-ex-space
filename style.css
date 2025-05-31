@@ -130,4 +130,27 @@ h1 {
   display: flex;
   align-items: baseline;
   gap: 20px;
+  color: #39e15a;
+}
+
+/*.fa-facebook,
+.fa-instagram,
+.fa-linkedin,
+.fa-github {
+  color: #f0f0f0;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-linkedin:hover,
+.fa-github:hover {
+  color: #39e15a;
+}*/
+
+.fa {
+  color: #f0f0f0;
+}
+
+.fa:hover {
+  color: #39e15a;
 }
