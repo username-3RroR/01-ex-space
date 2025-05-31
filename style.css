@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 * {
@@ -26,10 +27,9 @@ nav {
 
 header {
   display: flex;
-  flex-flow: row wrap;
   align-items: center;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   gap: 140px;
   margin: 20px 40px 20px 40px;
   z-index: 1;
